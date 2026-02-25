@@ -8,7 +8,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/principal")
-@CrossOrigin
 public class PrincipalController {
 
     private final EventIdeaService service;

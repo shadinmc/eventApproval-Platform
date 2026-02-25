@@ -8,7 +8,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/hod")
-@CrossOrigin
 public class HodController {
 
     private final EventIdeaService service;
